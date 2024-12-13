@@ -8,84 +8,84 @@ Instrucciones de instalación y ejecución:
 
 
 
-acordes_perfectos/
-├── backend/
- |----- dist/
-|------ node_modules
-│   ├── src/
-│   │   ├── controllers/
-│   │   │   ├── clientController.ts
-│   │   │   ├── dashboardController.ts
-│   │   │   ├── instrumentController.ts
-│   │   │   └── userController.ts
-│   │   ├── middleware/
-│   │   │   ├── authMiddleware.ts
-│   │   │   └── isAdmin.ts
-│   │   ├── models/
-│   │   │   ├── Client.ts
-│   │   │   ├── Instrument.ts
-│   │   │   └── User.ts
-│   │   ├── routes/
-│   │   │   ├── clientRoutes.ts
-│   │   │   ├── dashboardRoutes.ts
-│   │   │   ├── instrumentRoutes.ts
-│   │   │   └── userRoutes.ts
-│   │   ├── types/
-│   │   │   └── multer-storage-cloudinary.d.ts
-│   │   └── utils/
-│   │       ├── cloudinary.ts
-│   │       ├── db.ts
-│   │       ├── multer.ts
-│    |---- app.ts
-│   |------server.ts
-│── .env
-│── .gitignore
-│── package-lock.json
-│── package.json
-│── tsconfig.json
-└── ...
-
-frontend/
-├── node_modules/
-├── public/
-│   ├── index.html
-│   ├── favicon.ico
-│   ├── ... (Imágenes, archivos CSS)
-└── src/
-    ├── components/
-    │   ├── clients/
-    │   ├── instrument/
-    │   ├── usuarios/
-    │   └── Addproduct.tsx
-  
-    ├── models/
-    │   ├── Product.ts
-    │   ├── User.ts
-    │   └── ... (Otros modelos)
-    ├── pages/
-    │   ├── HomePage.tsx
-    │   ├── ProductsPage.tsx
-    │   ├── CartPage.tsx
-    │   ├── LoginPage.tsx
-    │   ├── RegisterPage.tsx
-    │   └── ... (Otras páginas)
-    ├── services/
-    │   ├── ProductService.ts
-    │   ├── UserService.ts
-    │   └── ... (Otros servicios)
-    ├── utils/
-    │   ├── formatCurrency.ts
-    │   ├── validateEmail.ts
-    │   └── ... (Otras funciones de utilidad)
-    ├── App.css
-    ├── App.test.tsx
-    ├── App.tsx
-    ├── index.css
-    ├── index.tsx
-    ├── logo.svg
-    ├── reportWebVitals.ts
-    ├── setupTests.ts
-    └── ... (Otros archivos)
+ acordes_perfectos/
+ ├── backend/
+  |──── dist/
+ |─── node_modules
+ │   ├── src/
+ │   │   ├── controllers/
+ │   │   │   ├── clientController.ts
+ │   │   │   ├── dashboardController.ts
+ │   │   │   ├── instrumentController.ts
+ │   │   │   └── userController.ts
+ │   │   ├── middleware/
+ │   │   │   ├── authMiddleware.ts
+ │   │   │   └── isAdmin.ts
+ │   │   ├── models/
+ │   │   │   ├── Client.ts
+ │   │   │   ├── Instrument.ts
+ │   │   │   └── User.ts
+ │   │   ├── routes/
+ │   │   │   ├── clientRoutes.ts
+ │   │   │   ├── dashboardRoutes.ts
+ │   │   │   ├── instrumentRoutes.ts
+ │   │   │   └── userRoutes.ts
+ │   │   ├── types/
+ │   │   │   └── multer-storage-cloudinary.d.ts
+ │   │   └── utils/
+ │   │       ├── cloudinary.ts
+ │   │       ├── db.ts
+ │   │       ├── multer.ts
+ │    |---- app.ts
+ │   |------server.ts
+ │── .env
+ │── .gitignore
+ │── package-lock.json
+ │── package.json
+ │── tsconfig.json
+ └── ...
+ 
+ frontend/
+ ├── node_modules/
+ ├── public/
+ │   ├── index.html
+ │   ├── favicon.ico
+ │   ├── ... (Imágenes, archivos CSS)
+ └── src/
+     ├── components/
+     │   ├── clients/
+     │   ├── instrument/
+     │   ├── usuarios/
+     │   └── Addproduct.tsx
+   
+     ├── models/
+     │   ├── Product.ts
+     │   ├── User.ts
+     │   └── ... (Otros modelos)
+     ├── pages/
+     │   ├── HomePage.tsx
+     │   ├── ProductsPage.tsx
+     │   ├── CartPage.tsx
+     │   ├── LoginPage.tsx
+     │   ├── RegisterPage.tsx
+     │   └── ... (Otras páginas)
+     ├── services/
+     │   ├── ProductService.ts
+     │   ├── UserService.ts
+     │   └── ... (Otros servicios)
+     ├── utils/
+     │   ├── formatCurrency.ts
+     │   ├── validateEmail.ts
+     │   └── ... (Otras funciones de utilidad)
+     ├── App.css
+     ├── App.test.tsx
+     ├── App.tsx
+     ├── index.css
+     ├── index.tsx
+     ├── logo.svg
+     ├── reportWebVitals.ts
+     ├── setupTests.ts
+     └── ... (Otros archivos)
 
 
 
