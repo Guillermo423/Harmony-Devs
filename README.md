@@ -4,6 +4,10 @@ Pagina web que funciona como tienda de instrumentos musicales
 Nombre del proyecto: Harmony Devs
 Descripción breve del sistema: Tienda de instrumentos musicales de cuerda, que permite la gestión de los instrumentos, los clientes y los usuarios.
 Instrucciones de instalación y ejecución: 
+
+
+
+
 acordes_perfectos/
 ├── backend/
  |----- dist/
